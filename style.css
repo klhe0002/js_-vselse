@@ -1,0 +1,25 @@
+img {
+  height: 200px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  margin: 0.5em;
+  padding: 0.5em;
+  /* border: 1px solid; */
+  border-radius: 2em;
+}
+
+img:hover {
+  box-shadow: 1px 1px 5px #aaa;
+  transform: translate(-1px, -1px);
+}
+
+img:active {
+  transform: translate(1px, 1px);
+  box-shadow: 0 0 0;
+}
+
+.skygge {
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+  transform: translate(-1px, -1px);
+  transition: 0.1s;
+}
